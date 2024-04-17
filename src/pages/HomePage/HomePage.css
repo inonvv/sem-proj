@@ -1,0 +1,26 @@
+.buttonsPlacement {
+  display: flex;
+}
+.headers {
+  display: flex;
+  width: 95vw;
+  height: 2vh;
+  justify-content: left;
+}
+
+.gifs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 0;
+  width: 90vw;
+}
+.gifs img {
+  position: absolute;
+  height: 20vh;
+}
+
+.gifs img:nth-child(2n) {
+  right: 0;
+}

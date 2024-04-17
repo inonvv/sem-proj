@@ -1,0 +1,20 @@
+.PageBackGroundContainer {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-evenly;
+  background-image: url("/src/assets/book-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}

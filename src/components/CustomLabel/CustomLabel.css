@@ -1,0 +1,26 @@
+label {
+  font-family: "Garamond", serif;
+  font-size: 18px;
+  color: #6b4423; /* Dark brown */
+  margin-bottom: 5px; /* Add some space between labels */
+  font-weight: bold;
+}
+
+label::after {
+  content: ":";
+  margin-left: 5px; /* Add some space between label text and colon */
+}
+
+label.required::after {
+  content: "*:";
+  color: #ff0000; /* Red asterisk for required fields */
+}
+
+label:hover {
+  color: #8b5a2b; /* Darker brown on hover */
+}
+
+.CustomLabelContainer {
+  background-color: #d4a6818e;
+  margin: 0.5rem;
+}

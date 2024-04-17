@@ -1,0 +1,26 @@
+input {
+  font-family: "Garamond", serif;
+  font-size: 19px;
+  color: #6b4423;
+  background-color: #f8f8f8;
+  border: 2px solid #6b4423;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  outline: none;
+  border-color: #8b5a2b;
+}
+
+input::placeholder {
+  color: #a0522d;
+}
+
+input:hover {
+  background-color: #e0e0e0;
+}
+
+.CustomInputContainer {
+  margin: 0.4rem;
+}

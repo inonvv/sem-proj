@@ -1,0 +1,23 @@
+.homepageBtn {
+  display: flex;
+  width: 100vw;
+  align-items: start;
+}
+
+.gifs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 0;
+  width: 90vw;
+}
+.gifs img {
+  margin-top: 15rem;
+  position: absolute;
+  height: 20vh;
+}
+
+.gifs img:nth-child(2n) {
+  right: 0;
+}

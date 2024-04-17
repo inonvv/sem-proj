@@ -1,0 +1,10 @@
+.RegisterFormContainer {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  border: 5px ridge saddlebrown;
+  padding: 1rem;
+  background-color: rgba(235, 193, 163, 0.788);
+}
